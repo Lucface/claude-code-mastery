@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any examples need them)
+node_modules/
+
+# Personal notes (keep these private)
+personal-notes/
+my-progress.md
+
+# Large files that shouldn't be in git
+*.zip
+*.tar.gz
+
+# Credentials
+.env
+.env.*
+credentials.json
