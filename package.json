@@ -1,0 +1,17 @@
+{
+  "name": "claude-code-mastery",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bunx docsify-cli serve . -p 3006 -o",
+    "serve": "bunx docsify-cli serve . -p 3006"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "docsify-cli": "^4.4.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}

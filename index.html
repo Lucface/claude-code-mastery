@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Claude Code Mastery</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Master Claude Code - from first install to 15+ parallel AI coding sessions">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <style>
+    :root {
+      --base-background-color: #f9f7f4;
+      --theme-color: #3f51b5;
+      --text-color-base: #2c3e50;
+      --code-theme-background: #282c34;
+    }
+    body {
+      background-color: var(--base-background-color);
+    }
+    .markdown-section {
+      max-width: 900px;
+    }
+    .markdown-section code {
+      background-color: #f0ebe6;
+      color: #476582;
+      padding: 2px 6px;
+      border-radius: 3px;
+    }
+    .markdown-section pre > code {
+      background-color: #282c34;
+      color: #abb2bf;
+      padding: 1em;
+    }
+    .sidebar {
+      background-color: #f9f7f4;
+    }
+    .sidebar-nav li a {
+      color: #364149;
+    }
+    .sidebar-nav li a:hover {
+      color: var(--theme-color);
+    }
+    blockquote {
+      background-color: #fff3cd;
+      border-left: 4px solid #d4a017;
+      padding: 1em;
+      margin: 1em 0;
+      border-radius: 0 4px 4px 0;
+    }
+    blockquote p {
+      margin: 0;
+    }
+    .cover {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    }
+    .cover h1 {
+      font-size: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'Claude Code Mastery',
+      repo: 'https://github.com/Lucface/claude-code-mastery',
+      loadSidebar: true,
+      subMaxLevel: 3,
+      coverpage: true,
+      auto2top: true,
+      search: {
+        placeholder: 'Search...',
+        noData: 'No Results',
+        depth: 3
+      },
+      copyCode: {
+        buttonText: 'Copy',
+        successText: 'Copied'
+      }
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+</body>
+</html>
